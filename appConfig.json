@@ -1,0 +1,54 @@
+{
+  "name": "Github test",
+  "projectType": "AR",
+  "viewType": "ar",
+  "fileName": "Github_test",
+  "thingworxServer": "https://tavf2p2z.studio-trial.thingworx.io",
+  "viewTemplateFileName": "home-ar.json",
+  "state": {
+    "orientation": "portrait"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "fragments": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ]
+    }
+  },
+  "version": "1.32.1433",
+  "device": {
+    "name": "iphone",
+    "width": "375",
+    "height": "667"
+  },
+  "mainNavigationMenuStyle": "leftSideMenu",
+  "resourceDirectory": "src/phone/resources",
+  "resourceRuntimeDir": "app/resources",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/fonts",
+  "theme": "twx-light"
+}
