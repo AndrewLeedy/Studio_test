@@ -20,7 +20,18 @@
           "name": "twx-dt-view",
           "children": [
             {
-              "name": "twx-container-content"
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DImage-1",
+                    "widget-name": "3DImage-1",
+                    "src": "Uploaded/501-120 (1).jpg"
+                  },
+                  "name": "twx-dt-image"
+                }
+              ]
             }
           ]
         },
